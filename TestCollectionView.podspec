@@ -28,9 +28,10 @@ Pod::Spec.new do |s|
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
+    s.frameworks = "libPods-TestCollectionView.a"
 
    s.requires_arc = true
-
+   s.dependency "Masonry", "~> 1.0.0"
 
 
 end
