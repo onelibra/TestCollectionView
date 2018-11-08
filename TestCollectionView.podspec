@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.name         = "TestCollectionView"
   s.version      = "0.0.1"
   s.summary      = "A short description of TestCollectionView."
-  s.description  = "A test collection desc"
+  s.description  = "A test collection description of TestCollectionView."
 
   s.homepage     = "https://github.com/onelibra/TestCollectionView"
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
-    s.frameworks = "libPods"
+  # s.frameworks = "libPods"
 
    s.requires_arc = true
    s.dependency "Masonry", "~> 1.0.0"
